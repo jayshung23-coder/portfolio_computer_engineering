@@ -48,7 +48,7 @@ export function Navbar() {
 							whileHover={{ scale: 1.05 }}
 							className="font-bold text-2xl text-gradient"
 						>
-							Portfolio
+							Shu Jie's Portfolio
 						</motion.div>
 					</Link>
 					<nav className="hidden md:flex gap-6">
@@ -123,12 +123,6 @@ export function Navbar() {
 					</Sheet>
 				</div>
 
-				{/* Desktop actions */}
-				<div className="hidden md:flex items-center gap-4">
-					<Link href="/contact">
-						<Button>Contact Me</Button>
-					</Link>
-				</div>
 			</div>
 		</motion.header>
 	);

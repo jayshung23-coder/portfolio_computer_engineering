@@ -16,7 +16,7 @@ export function AboutPreview() {
 			<div className="container px-4">
 				<SectionHeader
 					title="About Me"
-					description="A passionate engineer dedicated to solving complex problems through innovative solutions."
+					description="A Final-year Computer Engineering student at UTAR (Kampar) specializing in embedded system, IoT development, logic design & verification."
 				/>
 
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
@@ -28,7 +28,7 @@ export function AboutPreview() {
 						className="relative h-[400px] rounded-lg overflow-hidden"
 					>
 						<Image
-							src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg"
+							src="/images/me.jpg"
 							alt="Engineer portrait"
 							fill
 							className="object-cover"
@@ -43,36 +43,35 @@ export function AboutPreview() {
 						viewport={{ once: true }}
 						className="flex flex-col justify-center"
 					>
-						<h3 className="text-2xl font-bold mb-4">Professional Engineer</h3>
+						<h3 className="text-2xl font-bold mb-4">Computer Engineer</h3>
 						<p className="text-muted-foreground mb-6">
-							I'm a dedicated engineering student with a passion for innovation and problem-solving.
-							My academic journey has equipped me with strong technical skills and a deep understanding
-							of engineering principles that I apply to real-world challenges.
+							I'm a passionate IT student (with a music background 😅) with a curious mind and creative heart!
+							My academic journey has equipped me with strong technical skills and creativity that I apply to real-world challenges.
 						</p>
 
 						<div className="grid grid-cols-2 gap-4 mb-6">
 							<Card className="card-gradient">
 								<CardContent className="p-4">
 									<h4 className="font-semibold">Education</h4>
-									<p className="text-sm text-muted-foreground">B.S. Mechanical Engineering</p>
+									<p className="text-sm text-muted-foreground">B.IT (Hons) Computer Engineering - UTAR<br />Bachelor of Music - BJCMA</p>
 								</CardContent>
 							</Card>
 							<Card className="card-gradient">
 								<CardContent className="p-4">
 									<h4 className="font-semibold">Experience</h4>
-									<p className="text-sm text-muted-foreground">3+ Years</p>
+									<p className="text-sm text-muted-foreground">2+ Years - IT projects<br />5+ Years - Music related</p>
 								</CardContent>
 							</Card>
 							<Card className="card-gradient">
 								<CardContent className="p-4">
 									<h4 className="font-semibold">Projects</h4>
-									<p className="text-sm text-muted-foreground">10+ Completed</p>
+									<p className="text-sm text-muted-foreground">3x Embedded System & IoT Development<br />2x Processor and Digital Logic Design<br />1x Restaurant Ordering System</p>
 								</CardContent>
 							</Card>
 							<Card className="card-gradient">
 								<CardContent className="p-4">
-									<h4 className="font-semibold">Awards</h4>
-									<p className="text-sm text-muted-foreground">5 Recognitions</p>
+									<h4 className="font-semibold">Leadership & Extra Curricular</h4>
+									<p className="text-sm text-muted-foreground">Financial Talk Organizer - Finance Leader<br />Muay Thai Martial Art Beginner<br />Music Stage Performer</p>
 								</CardContent>
 							</Card>
 						</div>

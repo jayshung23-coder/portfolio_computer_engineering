@@ -10,13 +10,9 @@ export function Footer() {
 
 	const socialLinks = [
 		{ icon: <Phone className="h-5 w-5" />, href: siteConfig.links.phone, label: 'Phone' },
-		{ icon: <Mail className="h-5 w-5" />, href: siteConfig.links.email, label: 'Email' },
+		{ icon: <Mail className="h-5 w-5" />, href: 'mailto:s.j.ng@1utar.my', label: 'Email' },
 		{ icon: <Linkedin className="h-5 w-5" />, href: siteConfig.links.linkedin, label: 'LinkedIn' },
-		{ icon: <Github className="h-5 w-5" />, href: siteConfig.links.github, label: 'GitHub' },
-		{ icon: <MessageSquare className="h-5 w-5" />, href: siteConfig.links.whatsapp, label: 'WhatsApp' },
-		{ icon: <Twitter className="h-5 w-5" />, href: siteConfig.links.twitter, label: 'Twitter' },
-		{ icon: <Facebook className="h-5 w-5" />, href: siteConfig.links.facebook, label: 'Facebook' },
-		{ icon: <Instagram className="h-5 w-5" />, href: siteConfig.links.instagram, label: 'Instagram' },
+		//{ icon: <Github className="h-5 w-5" />, href: siteConfig.links.github, label: 'GitHub' },
 	];
 
 	const navColumns = [
@@ -29,19 +25,20 @@ export function Footer() {
 			],
 		},
 		{
-			title: 'Work',
+			title: 'Experience',
 			links: [
-				{ title: 'Experience', href: '/experience' },
+				//{ title: 'Experience', href: '/experience' },
 				{ title: 'Projects', href: '/projects' },
-				{ title: 'Certificates', href: '/certificates' },
+				//{ title: 'Certificates', href: '/certificates' },
 			],
 		},
 		{
-			title: 'Connect',
+			title: 'Resume',
 			links: [
-				{ title: 'Blog', href: '/blog' },
-				{ title: 'Contact', href: '/contact' },
-				{ title: 'Resume', href: '#', download: true },
+				//{ title: 'Blog', href: '/blog' },
+				//{ title: 'Contact', href: '/contact' },
+				{ title: 'Embedded System & IoT', href: '/resume/NgShuJie_Resume_ComputerEngineering_EmbeddedSystem_Oct2025_Internship.pdf', download: true },
+				{ title: 'Front-end Chip Design', href: '/resume/NgShuJie_Resume_ComputerEngineering_FPGA_Oct2025_Internship.pdf', download: true },
 			],
 		},
 	];
@@ -52,10 +49,10 @@ export function Footer() {
 				<div className="grid grid-cols-1 md:grid-cols-4 gap-8">
 					<div className="md:col-span-1">
 						<Link href="/" className="inline-block">
-							<span className="text-2xl font-bold text-gradient">Portfolio</span>
+							<span className="text-2xl font-bold text-gradient">Shu Jie's Portfolio</span>
 						</Link>
 						<p className="mt-4 text-sm text-muted-foreground">
-							A professional portfolio showcasing my skills, projects, and achievements in engineering.
+							A professional portfolio showcasing my skills, projects, and achievements in computer engineering.
 						</p>
 						<div className="mt-6 flex flex-wrap gap-3">
 							{socialLinks.map((link, index) => (
@@ -94,16 +91,8 @@ export function Footer() {
 
 				<div className="flex flex-col sm:flex-row items-center justify-between text-sm">
 					<p className="text-muted-foreground">
-						© {currentYear} Engineering Portfolio. All rights reserved.
+						Template originally created by Niladri Chatterjee on GitHub. Modified by Ng Shu Jie.
 					</p>
-					<div className="mt-4 sm:mt-0 flex gap-4">
-						<Link href="/privacy" className="text-muted-foreground hover:text-primary transition-colors">
-							Privacy Policy
-						</Link>
-						<Link href="/terms" className="text-muted-foreground hover:text-primary transition-colors">
-							Terms of Service
-						</Link>
-					</div>
 				</div>
 			</div>
 		</footer>
