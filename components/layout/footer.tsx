@@ -75,7 +75,7 @@ export function Footer() {
 											<Link
 												href={link.href}
 												className="text-muted-foreground hover:text-primary text-sm transition-colors"
-												{...(link.download ? { download: true } : {})}
+												{...'download' in link ? { download: link.download } : {})}
 											>
 												{link.title}
 											</Link>
