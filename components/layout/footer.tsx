@@ -12,7 +12,7 @@ export function Footer() {
 		{ icon: <Phone className="h-5 w-5" />, href: siteConfig.links.phone, label: 'Phone' },
 		{ icon: <Mail className="h-5 w-5" />, href: 'mailto:s.j.ng@1utar.my', label: 'Email' },
 		{ icon: <Linkedin className="h-5 w-5" />, href: siteConfig.links.linkedin, label: 'LinkedIn' },
-		//{ icon: <Github className="h-5 w-5" />, href: siteConfig.links.github, label: 'GitHub' },
+		{ icon: <Github className="h-5 w-5" />, href: siteConfig.links.github, label: 'GitHub' },
 	];
 
 	const navColumns = [

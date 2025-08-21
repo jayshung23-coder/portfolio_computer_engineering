@@ -41,7 +41,7 @@ export const siteConfig = {
 		},*/
 	],
 	links: {
-		github: 'https://github.com/yourusername',
+		github: 'https://github.com/jayshung23-coder',
 		linkedin: 'https://linkedin.com/in/shujie-ng',
 		twitter: 'https://twitter.com/yourusername',
 		facebook: 'https://facebook.com/yourusername',
