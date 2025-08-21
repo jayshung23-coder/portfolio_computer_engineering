@@ -325,6 +325,7 @@ export const skills: Skill[] = [
 	{ name: 'Embedded System Development', level: 9, category: 'technical' },
 	{ name: 'IoT Development', level: 8, category: 'technical' },
 	{ name: 'Front-end Chip Design', level: 8, category: 'technical' },
+	{ name: 'PC Troubleshooting and Maintenance', level: 8, category: 'technical' },
 	{ name: 'Computer Architecture', level: 7, category: 'technical' },
 	{ name: 'Circuit Theory and Electronics', level: 6, category: 'technical' },
 	{ name: 'Digital Signal Processing', level: 6, category: 'technical' },
