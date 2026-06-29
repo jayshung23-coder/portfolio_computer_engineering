@@ -6,7 +6,7 @@ Welcome to my personal computer engineering portfolio! I'm a Computer Engineerin
 - SystemVerilog, Vivado, Quartus Prime
 - STM32, Raspberry Pi, Arduino
 - Python, C/C++, Assembly
-- Computer Architecture
+- Computer Architecture, Register-level Programming
 
 ## 📁 Featured Projects
 - ✅ Custom RISC-V and MIPS processor designs
