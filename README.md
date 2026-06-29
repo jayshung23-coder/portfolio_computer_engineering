@@ -3,7 +3,7 @@
 Welcome to my personal computer engineering portfolio! I'm a Computer Engineering graduate from UTAR (Kampar), passionate about embedded systems, firmware development, logic design, and IoT development. This site showcases my academic journey, technical projects, and creative background in music.
 
 ## 🔧 Tech Stack
-- SystemVerilog, Vivado, Quartus Prime
+- SystemVerilog, Vivado, ModelSim, Keil uVision, STLink
 - STM32, Raspberry Pi, Arduino
 - Python, C/C++, Assembly
 - Computer Architecture, Register-level Programming
