@@ -16,7 +16,7 @@ export function AboutPreview() {
 			<div className="container px-4">
 				<SectionHeader
 					title="About Me"
-					description="A Final-year Computer Engineering student at UTAR (Kampar) specializing in embedded system, IoT development, logic design & verification."
+					description="A Computer Engineering graduate from UTAR (Kampar) specializing in embedded systems, IoT development, logic design & verification, and machine learning."
 				/>
 
 				<div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
@@ -28,7 +28,7 @@ export function AboutPreview() {
 						className="relative h-[400px] rounded-lg overflow-hidden"
 					>
 						<Image
-							src="/images/me.jpg"
+							src="/images/me.png"
 							alt="Engineer portrait"
 							fill
 							className="object-cover"
@@ -45,27 +45,27 @@ export function AboutPreview() {
 					>
 						<h3 className="text-2xl font-bold mb-4">Computer Engineer</h3>
 						<p className="text-muted-foreground mb-6">
-							I'm a passionate IT student (with a music background 😅) with a curious mind and creative heart!
-							My academic journey has equipped me with strong technical skills and creativity that I apply to real-world challenges.
+							I'm a passionate Computer Engineering graduate (with a music background 😅) with a curious mind and creative heart!
+							My academic journey and internship experience at FootFallCam have equipped me with strong technical skills and creativity that I apply to real-world challenges.
 						</p>
 
 						<div className="grid grid-cols-2 gap-4 mb-6">
 							<Card className="card-gradient">
 								<CardContent className="p-4">
 									<h4 className="font-semibold">Education</h4>
-									<p className="text-sm text-muted-foreground">B.IT (Hons) Computer Engineering - UTAR<br />Bachelor of Music - BJCMA</p>
+									<p className="text-sm text-muted-foreground">B.IT (Hons) Computer Engineering - UTAR (CGPA 3.4150)<br />Bachelor of Music - BJCMA</p>
 								</CardContent>
 							</Card>
 							<Card className="card-gradient">
 								<CardContent className="p-4">
 									<h4 className="font-semibold">Experience</h4>
-									<p className="text-sm text-muted-foreground">2+ Years - IT projects<br />5+ Years - Music related</p>
+									<p className="text-sm text-muted-foreground">Production Intern - FootFallCam (Top 10%)<br />3+ Years - IT projects<br />5+ Years - Music related</p>
 								</CardContent>
 							</Card>
 							<Card className="card-gradient">
 								<CardContent className="p-4">
 									<h4 className="font-semibold">Projects</h4>
-									<p className="text-sm text-muted-foreground">3x Embedded System & IoT Development<br />2x Processor and Digital Logic Design<br />1x Restaurant Ordering System</p>
+									<p className="text-sm text-muted-foreground">3x Embedded System & IoT<br />3x Processor & Digital Logic Design<br />2x Machine Learning<br />1x Web Development</p>
 								</CardContent>
 							</Card>
 							<Card className="card-gradient">

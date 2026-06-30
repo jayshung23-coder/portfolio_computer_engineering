@@ -102,6 +102,38 @@ export type Project = {
 
 export const projects: Project[] = [
 	{
+    	title: 'Hardware Testing Production Intern - FootFallCam',
+		description:
+			'Completed internship at FootFallCam as a Production Intern, awarded a Top 10% Internship Certificate. Contributed to real-world software development tasks involving embedded and application-level work.',
+		image: '/images/footfallcam.jpeg',  // replace with a better image if you have one
+		tags: ['Internship', 'Software Development', 'Embedded Systems', 'Agile Methodology', 'Hardware Diagnostics', 'Micro Soldering'],
+		//link: '#',
+		//repo: '#',
+	},
+	{
+		title: 'EEG-Based Music Genre Classifcation (FYP) - Investigate the Impact of Music on Brain Wave Activity',
+		description:
+			'Completed FYP research on classifying music genres from EEG signals using the MUSIN-G dataset (20 subjects, 4 genres). Implemented CNN, CNN-LSTM, CNN-BiLSTM and CNN-GRU models in PyTorch, alongside SVM, Random Forest and XGBoost baselines. Used Optuna for hyperparameter tuning and MNE-Python for EEG preprocessing. Self-recorded EEG data using an Emotiv EPOC+ headset.',
+		image: '/images/ml.jpg',
+		tags: ['Machine Learning', 'PyTorch', 'EEG', 'CNN-LSTM', 'Optuna', 'MNE-Python'],
+		//link: '#',
+		//repo: '#',
+	},
+	{
+		title: 'Multi-Cycle MIPS Processor Design',
+		description:
+			'Designed a fully functional multi-cycle MIPS ISA-compatible processor in SystemVerilog in a 3-person team. Solely responsible for the Co-Processor 0 (CP0) unit and drove full-chip integration, aligning all subsystems (datapath, control unit, memory, CP0) into a single coherent working processor.',
+		image: '/images/processor.jpg',
+		tags: ['Processor Design', 'SystemVerilog', 'Vivado', 'MIPS', 'Logic Design', 'Testbench'],
+	},
+	{
+		title: 'Supply Chain Delay Risk Prediction via Neural Network',
+		description:
+			'Built an MLP binary classifier to predict supply chain order fulfilment delay risk. Covered the full ML pipeline including feature engineering, data transformation, stratified splitting, and class imbalance handling. Compared deep vs. wide MLP architectures with early stopping and dropout regularisation. Also incorporated a Fuzzy Inference System for comparison.',
+		image: '/images/supplychain.avif',
+		tags: ['Machine Learning', 'Python', 'TensorFlow', 'MLP', 'Neural Network', 'Supply Chain'],
+	},
+	{
 		title: 'Smart Home Automation System',
 		description:
 			'Designed and implemented a smart home automation system using 2 Raspberry Pis to monitor sensors on temperature, light luminence and gyroscopic motions on Blynk IoT Platform. Telegram Bot is deployed to control Raspberry Pi remotely.',
@@ -115,8 +147,17 @@ export const projects: Project[] = [
 		description:
 			'Designed a 5-stage pipelined RISC-V CPU with hazard detection and forwarding logic. Achieved 95% functional coverage across instruction set and control scenarios.',
 		image: '/images/processor.jpg',
-		tags: ['Processor Design', 'SystemVerilog', 'ModelSim', 'Quartus Prime'],
+		tags: ['Processor Design', 'SystemVerilog', 'RISC-V', 'ModelSim', 'Quartus Prime'],
 		//link: '#',
+		//repo: '#',
+	},
+	{
+		title: 'LinkMini — An E-Commerce Website Design',
+		description:
+			'Built and deployed an e-commerce website using HTML, CSS and JavaScript, hosted on Vercel. Implemented RESTful API integration with jQuery and localStorage to manage dynamic product data and cart state across the site.',
+		image: '/images/frontend.png',
+		tags: ['HTML', 'CSS', 'JavaScript', 'REST Api', 'Web Development'],
+		link: 'https://linkmini-web.vercel.app',
 		//repo: '#',
 	},
 	{
@@ -125,15 +166,6 @@ export const projects: Project[] = [
 			'Created an application using C++ to login and make orders, then print out payment informations and QR code generation.',
 		image: '/images/restaurant.png',
 		tags: ['Ordering System', 'C++', 'Software Development'],
-		//link: '#',
-		//repo: '#',
-	},
-	{
-		title: 'Investigate the Impact of Music on Brain Wave Activity',
-		description:
-			'Currently ongoing FYP Research project on implementing different machine learning models (CNN-LSTM, RF, SVM, etc.) using Python with different preprocessing approach, fine-tune and test the accuracy of trained model using a self-built Arduino-based EEG device.',
-		image: '/images/ml.jpg',
-		tags: ['Machine Learning', 'IoT', 'Healthcare', 'Arduino', 'Tensorflow'],
 		//link: '#',
 		//repo: '#',
 	},
@@ -224,15 +256,17 @@ export type Education = {
 
 export const education: Education[] = [
 	{
-		degree: 'Bachelor of Information Technology (Hons)',
+		degree: 'Bachelor of Information Technology (Honours)',
 		field: 'Computer Engineering',
-		institution: 'Universiti Tunku Adbul Rahman',
+		institution: 'Universiti Tunku Abdul Rahman (UTAR)',
 		location: 'Kampar, Perak',
 		startDate: 'Jun 2023',
-		endDate: 'Present (Expected Jun 2026)',
-		gpa: '3.47/4.0',
+		endDate: 'Jun 2026',
+		gpa: '3.4150/4.0',
 		achievements: [
-			'Organizer of "Start Managing Your Personal Finance Now" Campus Wide Talk — Finance Leader'
+			'Top 10% Internship Certificate — FootFallCam (Meta Research Sdn Bhd)',
+			'Organizer of "Start Managing Your Personal Finance Now" Campus Wide Talk — Finance Leader',
+			'MUET Band 4.5',
 		],
 	},
 	{
@@ -326,27 +360,30 @@ export const skills: Skill[] = [
 	{ name: 'IoT Development', level: 8, category: 'technical' },
 	{ name: 'Front-end Chip Design', level: 8, category: 'technical' },
 	{ name: 'PC Troubleshooting and Maintenance', level: 8, category: 'technical' },
-	{ name: 'Computer Architecture', level: 7, category: 'technical' },
+	{ name: 'Computer Architecture', level: 8, category: 'technical' },
+	{ name: 'Machine Learning', level: 7, category: 'technical' },
 	{ name: 'Circuit Theory and Electronics', level: 6, category: 'technical' },
 	{ name: 'Digital Signal Processing', level: 6, category: 'technical' },
+	{ name: 'Operating System', level: 6, category: 'technical' },
 	{ name: 'Networking', level: 5, category: 'technical' },
-	{ name: 'Machine Learning', level: 5, category: 'technical' },
 	{ name: 'Database Management', level: 4, category: 'technical' },
-	{ name: 'Operating System', level: 4, category: 'technical' },
+	
 
 	// Software Skills
 	{ name: 'Python', level: 9, category: 'software' },
-	{ name: 'C/C++', level: 8, category: 'software' },
+	{ name: 'C/C++', level: 9, category: 'software' },
 	{ name: 'SystemVerilog / Verilog', level: 8, category: 'software' },
 	{ name: 'Vivado / ModelSim / Quartus Prime', level: 8, category: 'software' },
 	{ name: 'Keil uVision / ArduinoIDE', level: 8, category: 'software' },
 	{ name: 'Assembly Language', level: 7, category: 'software' },
 	{ name: 'Microsoft Word / Excel / Powerpoint', level: 7, category: 'software' },
+	{ name: 'PyTorch / scikit-learn / Optuna', level: 7, category: 'software' },
+	{ name: 'MNE-Python', level: 7, category: 'software' },
 	{ name: 'HTML5 / CSS / Javascript / React / Bootstrap', level: 6, category: 'software' },
 	{ name: 'Visual Studio Code', level: 6, category: 'software' },
 	{ name: 'MATLAB', level: 5, category: 'software' },
 	{ name: 'Cisco Packet Tracer / WireShark', level: 5, category: 'software' },
-	{ name: 'Git', level: 3, category: 'software' },
+	{ name: 'Git', level: 4, category: 'software' },
 	{ name: 'SQLPlus', level: 3, category: 'software' },
 
 	// Soft Skills

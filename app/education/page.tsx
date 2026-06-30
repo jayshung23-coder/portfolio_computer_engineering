@@ -27,7 +27,7 @@ export default function EducationPage() {
 						variants={fadeIn('down', 0.3)}
 						className="text-lg text-muted-foreground mb-12"
 					>
-						My Educations and Achievements in the Journey called Life.
+						My Educations and Achievements in my Life Journey...
 					</motion.p>
 
 					<div className="space-y-8">

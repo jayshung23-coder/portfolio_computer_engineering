@@ -37,8 +37,7 @@ export function Footer() {
 			links: [
 				//{ title: 'Blog', href: '/blog' },
 				//{ title: 'Contact', href: '/contact' },
-				{ title: 'Embedded System & IoT', href: '/resume/NgShuJie_Resume_ComputerEngineering_EmbeddedSystem_Oct2025_Internship.pdf', download: true },
-				{ title: 'Front-end Chip Design', href: '/resume/NgShuJie_Resume_ComputerEngineering_FPGA_Oct2025_Internship.pdf', download: true },
+				{ title: 'Firmware / Embedded System / IC Design', href: '/resume/NgShuJie_Resume.pdf', download: true },
 			],
 		},
 	];
